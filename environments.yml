@@ -1,0 +1,26 @@
+name: ohsome_examples
+channels:
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  
+  # PYTHON DEPENDENCIES
+  - branca  # Colormap functionalities for folium (optional, but recommended for colormap)
+  - folium  # Visualization with Leaflet maps
+  - ipyleaflet
+  - ipython  # Included for compatibility (consider using JupyterLab instead)  # Note
+  - ipywidgets>=7.6  # JupyterLab environment
+  - jupyterlab>=3
+  - mamba
+  - matplotlib  # Data visualization (includes pyplot)
+  - numpy  # Scientific computing library
+  - pandas  # Data manipulation and analysis
+  - plotly
+  - python-dateutil  # Time-related functionalities (recommended)
+  - requests  # HTTP library
+  
+  # R DEPENDENCIES
+  - r  # R base package (installs latest version from the r channel)
+  - r-essentials  # Optional, consider for commonly used R packages  # Note
+  - r-irkernel # get R to run in jupyter labs
