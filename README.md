@@ -1,5 +1,18 @@
-# ohsome examples
+# OHSOME EXAMPLES
+Ohsome is an API for accessing historical data from Open Street Maps (OSM)
 
+OSM's data has metadata defining when the feature was added. Ohsome API allows us to query for features listed at specific dates (e.g. 2015). 
+
+## Get Started (conda/mamba)
+
+This project was slightly modified from the original, with the addition of a `environments.yml` file in the project base for conda/mamba workflows. 
+
+1) Open a terminal window
+2) Invoke a  `conda env create -f environments.yml` to create a conda VM
+3) Invoke a `jupyter lab`, you should see the server print output to the screen.
+4) Click on the link in the output that says where your server is running.
+
+# ORIGINAL README...
 This Repository contains a collection of examples of how to work with the [ohsome API](https://api.ohsome.org).
 
 ## Python examples
